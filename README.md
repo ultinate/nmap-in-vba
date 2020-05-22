@@ -1,11 +1,11 @@
-= Nmap for the Poor
+# Nmap for the Poor
 
-== Why
+## Why
 
 If you ever find yourself in a situation where you want to scan
 a network range and only have VBA scripting available.
 
-== What
+## What
 
 Features:
 
@@ -20,7 +20,7 @@ Does not support (yet):
   * CIDR notation
   * Faster scanning
 
-== How
+## How
 
 Call to URL is implemented using Microsoft XML  `MSXML2.ServerXMLHTTP60`
 
@@ -28,7 +28,7 @@ Partly inspired by:
   * https://github.com/andreafortuna-org/VBAIPFunctions
 
 
-== Getting Started
+## Getting Started
 
   * In Excel Worksheet, press Alt+F11 to enter VBA Editor. 
   * Inside Excel VBA Editor, go to Tools > References.
